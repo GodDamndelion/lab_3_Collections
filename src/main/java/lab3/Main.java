@@ -1,7 +1,9 @@
 package lab3;
 
+import lab3.ArrayListVsLinkedListTest.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ArrayListVsLinkedList.test();
     }
 }
