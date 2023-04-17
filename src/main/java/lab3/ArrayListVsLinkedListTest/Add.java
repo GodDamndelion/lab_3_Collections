@@ -28,7 +28,7 @@ class Add {
         else
             System.out.println(ArrayListStopTime < LinkedListStopTime ? "ArrayList wins!" : "LinkedList wins!");
 
-        System.out.println("============================");
+        System.out.println(ArrayListVsLinkedList.dividingLine); // ===============================================
 
         arrayList.clear();
         linkedList.clear();
@@ -53,7 +53,7 @@ class Add {
         else
             System.out.println(ArrayListStopTime < LinkedListStopTime ? "ArrayList wins!" : "LinkedList wins!");
 
-        System.out.println("============================");
+        System.out.println(ArrayListVsLinkedList.dividingLine); // ===============================================
 
         arrayList.clear();
         linkedList.clear();
