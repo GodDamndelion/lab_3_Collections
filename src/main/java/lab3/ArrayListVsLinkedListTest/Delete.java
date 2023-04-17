@@ -3,7 +3,13 @@ package lab3.ArrayListVsLinkedListTest;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/**
+ * Класс тестирования ArrayList и LinkedList на удаление
+ */
 class Delete {
+    /**
+     * Статический метод тестирования ArrayList и LinkedList на удаление
+     */
     public static void test(int count) {
         ArrayList<Integer> arrayList = ArrayListVsLinkedList.fillArrayList(count);
         LinkedList<Integer> linkedList = ArrayListVsLinkedList.fillLinkedList(count);

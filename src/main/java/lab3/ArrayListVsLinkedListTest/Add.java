@@ -3,7 +3,13 @@ package lab3.ArrayListVsLinkedListTest;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/**
+ * Класс тестирования ArrayList и LinkedList на добавление
+ */
 class Add {
+    /**
+     * Статический метод тестирования ArrayList и LinkedList на добавление
+     */
     public static void test(int count) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         LinkedList<Integer> linkedList = new LinkedList<>();
